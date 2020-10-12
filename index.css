@@ -41,6 +41,17 @@ body {
     margin-top: -40px;
     color: #204C8A;
 }
+.container .logo .social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container .logo .social-container a img {
+    height: 60px;
+}
+.container .logo .social-container a:not(:last-child) img {
+    margin-right: 15px;
+}
 .container .pattern {
     background:url("./assets/pattern.png") repeat-y 0 / 100% auto;
 	height: calc(100vh - 80px);
@@ -74,14 +85,9 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .container .logo .social-container {
-        display: flex;
-        margin-top: 20px;
-    }
+    
     .container .logo .social-container a img {
         height: 50px;
     }
-    .container .logo .social-container a:not(:last-child) img {
-        margin-right: 15px;
-    }
+    
 }
